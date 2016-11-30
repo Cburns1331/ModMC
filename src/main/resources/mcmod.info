@@ -1,0 +1,16 @@
+[
+{
+  "modid": "Shalev",
+  "name": "Shalev Mod",
+  "description": "Work in progress...",
+  "version": "${version}",
+  "mcversion": "${mcversion}",
+  "url": "",
+  "updateUrl": "",
+  "authorList": ["Chris Burns"],
+  "credits": "Chris Burns",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]
