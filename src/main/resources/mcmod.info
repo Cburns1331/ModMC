@@ -1,10 +1,10 @@
 [
 {
-  "modid": "Shalev",
+  "modid": "sm",
   "name": "Shalev Mod",
   "description": "Work in progress...",
-  "version": "${version}",
-  "mcversion": "${mcversion}",
+  "version": "1.0",
+  "mcversion": "1.10.2",
   "url": "",
   "updateUrl": "",
   "authorList": ["Chris Burns"],
