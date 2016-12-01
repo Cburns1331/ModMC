@@ -1,5 +1,6 @@
 package com.burns.mod;
 
+import com.burns.mod.init.ModBlocks;
 import com.burns.mod.init.ModItems;
 import com.burns.mod.proxy.CommonProxy;
 
@@ -26,6 +27,9 @@ public class Main {
     	
     	ModItems.init();
     	ModItems.register();
+    	
+    	ModBlocks.init();
+    	ModBlocks.register();
     }
         
     @EventHandler

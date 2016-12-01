@@ -37,4 +37,38 @@ public class Reference {
 		}
 	}
 	
+	public static enum smBlocks{
+		COPPER_BLOCK("copper_block", "BlockCopper_Block"),
+		SILVER_BLOCK("silver_block", "BlockSilver_Block"),
+		TIN_BLOCK("tin_block", "BlockTin_Block"),
+		BRONZE_BLOCK("bronze_block", "BlockBronze_Block"),
+		PLATINUM_BLOCK("platinum_block", "BlockPlatinum_Block"),
+		STEEL_BLOCK("steel_block", "BlockSteel_Block"),
+		CHROMIUM_BLOCK("chromium_block", "BlockChromium_Block"),
+		STAINLESS_STEEL_BLOCK("stainless_steel_block", "BlockStainless_Steel_Block"),
+		PEWTER_BLOCK("pewter_block", "BlockPewter_Block"),
+		SILVER_ORE("silver_ore", "BlockSilver_Ore"),
+		TIN_ORE("tin_ore", "BlockTin_Ore"),
+		COPPER_ORE("copper_ore", "BlockCopper_Ore"),
+		PLATINUM_ORE("platinum_ore", "BlockPlatinum_Ore"),
+		CHROMIUM_ORE("chromium_ore", "BlockChromium_Ore");
+		
+		
+		private String unlocalizedName;
+		private String registryName;
+		
+		smBlocks(String unlocalizedName, String registryName){
+			this.unlocalizedName = unlocalizedName;
+			this.registryName = registryName;
+		}
+		
+		public String getUnlocalizedName() {
+			return unlocalizedName;
+		}
+		
+		public String getRegistryName() {
+			return registryName;
+		}
+	}
+	
 }
